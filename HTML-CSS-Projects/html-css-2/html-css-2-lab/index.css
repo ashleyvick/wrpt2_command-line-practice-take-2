@@ -1,0 +1,105 @@
+@font-face{
+    font-family: D-DIN-Bold;
+    src: url(/Fonts/D-DIN-Bold.ttf)
+}
+
+.rocket {
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url(https://westernnews.media.clients.ellingtoncms.com/img/photos/2018/01/02/spacex_launch_01.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: D-DIN-Bold;
+}
+.navBar {
+    width: 100vw;
+    height: 10hv;
+    position: fixed;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    height: 10hv;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    left: 20%;
+    top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.spacexlogo {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.nav-right{
+    list-style-type: none;
+    position: fixed;
+    top: 20px;
+    right: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: end;
+
+}
+
+
+.menu {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.Shop{
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+}
+
+.bottom-left{
+margin-left: 5%;
+position: relative;
+top: 250px;
+display: inline-block
+}
+
+.bottom-left h4{
+    font-size: 20px;
+}
+.bottom-left h1{
+    font-size: 50px;
+}
+
+.replay-icon{
+    margin-left: 5%;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    top: 270px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.replay-icon h4{
+    text-align: center;
+    font-size: 14px;
+    
+}
